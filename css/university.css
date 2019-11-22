@@ -1,0 +1,130 @@
+body {
+	height: 2000px;
+}
+.container .row {
+	padding: 10px 0px;
+
+}
+.breadcrumb {
+	background: white;
+}
+.breadcrumb a{
+	color: #11cbd7; 
+}
+.main {
+	width: 100%;
+	height: 900px;
+	background-color: pink;
+    background-image: url('../img/man.jpg');
+   
+}
+.main .content {
+padding-top: 10%;
+}
+
+.main .content h1,h5 {
+	margin: 20px 0px ;
+	color: white;
+}
+.main .content .search {
+	margin: auto;
+    width: 60%;
+    background: white;
+    height: 100px;
+}
+input[type="submit"]  {
+	 background: #11cad6;
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.section1 {
+	margin-top: 5%;
+    width: 100%;
+    height: 400px;
+}
+.section1 .container .row .col-6 {
+	height: 400px;
+}
+.section1 .container .row .col-6 img{
+	width: 100%;
+    height: 360px;
+    margin: 20px 0px;
+position: relative;
+}
+.section1 .container .row .col-6 p {
+	line-height: 2;
+	margin: 14% 10% 0% 0% ;
+    
+ }
+.section1 .container .row .col-6 h2 {
+ 	    margin-top: 20px;
+ 	    color: red;
+ }
+.section1 .container .row .col-6 a i {
+ 	z-index: 2;
+    color: #11cad6;
+}
+.section1 .container .row .col-6 a {
+    	width: 100px;
+    	height: 100px;
+    	z-index: 1;
+    	background: red;
+
+}
+.section2 {
+	width: 100%;
+	height: 300px;
+}
+.section2 .col-3 {
+   
+}
+ .fa-book {
+font-size: 50px;
+    margin-bottom: 25px;
+}
+.section2 .col-3 a {
+	color: #11cad6;
+text-decoration: none;
+}
+.section3 {
+	padding-top: 5%;
+	width: 100%;
+	height: auto;
+	background-color:#f5f5f0;
+}
+.section3 .col-6 .row .col-6 .fa-book,.icn  {
+	display: inline-block;
+    margin-right: 15px;
+
+}
+.section3 .col-6 .row .col-6 .icn{
+margin-top: 15px;
+}
+.section3 .popular {
+	    margin-top: 20%;
+}
+.section3 .popular input[type='submit'] {
+
+}
+.section4 {
+    padding-top: 10%;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    padding-bottom: 10%;
+    background-color: #f5f5f0;
+}
+.section4 .row {
+	margin: 0px;
+}
+.section4 .arrows {
+	margin-top: 5%;
+
+}
+.section4 .arrows i {
+	font-size: 25px;
+    margin-right: 15px;
+    color: gray;
+}
